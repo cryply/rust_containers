@@ -21,4 +21,7 @@ run:
 release:
 	cargo build --release
 
-all: format lint test run
+bench:
+	cargo bench
+
+all: format lint test bench run
