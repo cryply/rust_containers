@@ -103,7 +103,7 @@ fn bench_get(c: &mut Criterion) {
                 }
                 l
             },
-            | l| {
+            |l| {
                 let mut sum = 0;
                 for el in l.iter() {
                     sum += black_box(el);
